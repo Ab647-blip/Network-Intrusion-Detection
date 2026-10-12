@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.env
+.vscode/
+Raw_Data/
+Cleaned_Data/processed/per_day/
+Cleaned_Data/processed/cicids2017_clean.parquet
