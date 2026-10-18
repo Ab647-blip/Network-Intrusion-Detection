@@ -1,28 +1,13 @@
-# Data - too large for git, lives in GitHub Releases
-Raw_files/
-processed/
-Cleaned_Data/
-
+# Large data files - too big for GitHub, use Releases instead
 *.parquet
 *.pkl
 *.joblib
 *.zip
-*.7z
-*.rar
-*.gz
+*.csv
 
-# Keep the small reference files
-!cleaning_log.csv
-!feature_columns_v2.csv
-!label_mapping.csv
+# Raw dataset - download from UNB
+Raw_files/
 
 # Python
 __pycache__/
-*.pyc
 .ipynb_checkpoints/
-.venv/
-venv/
-
-# OS
-.DS_Store
-Thumbs.db
