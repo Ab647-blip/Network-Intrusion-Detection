@@ -1,11 +1,28 @@
+# Data - too large for git, lives in GitHub Releases
+Raw_files/
+processed/
+Cleaned_Data/
+
+*.parquet
+*.pkl
+*.joblib
+*.zip
+*.7z
+*.rar
+*.gz
+
+# Keep the small reference files
+!cleaning_log.csv
+!feature_columns_v2.csv
+!label_mapping.csv
+
+# Python
 __pycache__/
-*.py[cod]
+*.pyc
+.ipynb_checkpoints/
 .venv/
 venv/
-env/
-.ipynb_checkpoints/
-.env
-.vscode/
-Raw_Data/
-Cleaned_Data/processed/per_day/
-Cleaned_Data/processed/cicids2017_clean.parquet
+
+# OS
+.DS_Store
+Thumbs.db
